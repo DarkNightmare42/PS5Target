@@ -35,4 +35,4 @@ setInterval(function(){
     if(hasText || needRefresh || need2){
         window.location = "https://www.target.com/co-cart";
     }
-}, 3000);
+}, 60000);
