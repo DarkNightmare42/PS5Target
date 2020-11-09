@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TargetPS5AutoSnag
 // @namespace    http://example.tld
-// @version      0.2
+// @version      0.2.1
 // @description  TargetPS5AutoSnag
 // @author       brewcrew87
 // @updateUrl    https://github.com/DarkNightmare42/PS5Target/raw/main/TargetCheckout.user.js
@@ -35,4 +35,4 @@ setInterval(function(){
     if(hasText || needRefresh || need2){
         window.location = "https://www.target.com/co-cart";
     }
-}, 60000);
+}, 180000);
